@@ -12,6 +12,9 @@ class Client
 		pets.values.join("\n")
 	end
 
+	def adopt_animal
+	end
+
 end
 
 #Phase 1 Test (create clients)

@@ -6,6 +6,7 @@ class Animal
 		@a_age = a_age
 		@a_gender = a_gender
 		@a_species = a_species
+		#animal can have multiple toys
 		@toys = []
 	end
 

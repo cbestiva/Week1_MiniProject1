@@ -11,11 +11,13 @@ class Shelter
 	end
 	
 	def display_animals
-		@animals.values
+		@animals.each {|key, value|}
+		# @animals.values
 	end
 
 	def display_clients
-		@clients.values
+		@clients.each {|key, value|}
+		# @clients.values
 	end
 
 end
@@ -23,4 +25,7 @@ end
 #Phase 2 (animals and clients can be added to shelter)
 shelter = Shelter.new("shelter")
 #HappiTails will have a hash of animals and clients
-puts shelter.animals[:Mochi] = ["Mochi", 5, "female", "dog"]
+shelter.animals[:Mochi] = ["Mochi", 5, "female", "dog"]
+# puts shelter.animals.keys
+# puts shelter.animals.values
+# puts shelter.display_animals #=> {:Mochi=>["Mochi", 5, "female", "dog"]}
