@@ -12,7 +12,7 @@ def menu message
 	puts "2 : Create a client"
 	puts "3 : Display all animals"
 	puts "4 : Display all clients"
-	puts "5 : Clinet adopts an animal"
+	puts "5 : Client adopts an animal"
 	puts "6 : Client puts animal up for adoption"
 	puts "q : Quit\n\n"
 	print "--> "
